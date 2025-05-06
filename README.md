@@ -35,12 +35,17 @@ ollama pull hf.co/<username>/<model-repository>
 Example:
 ollama pull mxbai-embed-large-v1
 ```
+
+---
+
 ## 3. Install Chat Model
 To use a chat model locally:
 ```bash
 ollama pull <model-name>
 ```
 Replace \<model-name\> with the desired chat model (e.g., llama2, phi).
+
+---
 
 ## 4. Set Up Qdrant with Docker
 Qdrant is a high-performance vector similarity search engine.
